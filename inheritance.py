@@ -4,7 +4,7 @@ from common.Lion import Lion
 # child class to Lion class(PARENT)...Lion(PARENT) moved to #common folder
 class Cat(Lion):
 
-    legs = 4
+    legs = 6
     eyes = 2
 
     def __init__(self, name, age, breed) -> None:
